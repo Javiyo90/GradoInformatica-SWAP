@@ -8,6 +8,7 @@ enrutamiento del tráfico de un servidor para pasar el
 tráfico desde una subred a otra.**
 
 - Bajo Linux tenemos varios comandos:
+
 	-- iptables. Ej:
 	
 	```
