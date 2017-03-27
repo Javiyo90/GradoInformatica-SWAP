@@ -13,7 +13,7 @@ tráfico desde una subred a otra.**
 	
 	```
 	iptables -A FORWARD -j ACCEPT
-	iptables -t nat -A POSTROUTING -s 10.0.0.0/8 -o eth0 -j 	MASQUERADE
+	iptables -t nat -A POSTROUTING -s 10.0.0.0/8 -o eth0 -j MASQUERADE
 	```
 
 	-- route. Ej:
