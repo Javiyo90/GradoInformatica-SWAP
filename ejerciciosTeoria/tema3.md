@@ -8,16 +8,17 @@ enrutamiento del tráfico de un servidor para pasar el
 tráfico desde una subred a otra.**
 
 - Bajo Linux tenemos varios comandos:
-	- iptables. Ej:
-```
-iptables -A FORWARD -j ACCEPT
-iptables -t nat -A POSTROUTING -s 10.0.0.0/8 -o eth0 -j MASQUERADE
-```
+	-- iptables. Ej:
+	```
+	iptables -A FORWARD -j ACCEPT
+	iptables -t nat -A POSTROUTING -s 10.0.0.0/8 -o eth0 -j 	MASQUERADE
+	```
 
-	- route. Ej:
-```
-route add -net 169.255.0.0/16 gw 192.168.1.1 dev eth0
-```
+	-- route. Ej:
+
+	```
+	route add -net 169.255.0.0/16 gw 192.168.1.1 dev eth0
+	```
 
 - En Windows tenemos el comando route que es el más efectivo y simple para configurar el enrutamiento de subredes.
 
