@@ -58,6 +58,7 @@ Bryan Moreno Picamán
 
 ![Captura13](./capturas/C24.png?raw=true)
 
+**5. Podemos comprobar que se puede hacer ping pero después de implementar la restricción para los paquetes icmp quedan bloqueados al intentarlo de nuevo.**
 
-
+![Captura14](./capturas/C25.png?raw=true)
 
